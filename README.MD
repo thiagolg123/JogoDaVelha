@@ -1,4 +1,4 @@
-# Jogo da Velha POC de tecnologias.
+# Jogo da Velha.
 
 
 # Nível 1:
