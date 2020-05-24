@@ -1,5 +1,9 @@
 # Jogo da Velha.
 
+* Documentação da API + testes foram executados via postman:
+https://documenter.getpostman.com/view/3327369/Szt8eqGv
+
+* Endereço da API: http://ec2-18-220-188-233.us-east-2.compute.amazonaws.com/v1/jogovelha [POST]
 
 # Nível 1:
  Desenvolva uma função ou método que atenda a assinatura isVelha (Int[] jogo), e que seja
