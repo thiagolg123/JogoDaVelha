@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.thiago.jogoDaVelha.DTO.Game;
+import br.com.thiago.jogoDaVelha.exception.InvalidGameException;
 import br.com.thiago.jogoDaVelha.service.GameService;
 
 @RestController
@@ -21,28 +22,31 @@ import br.com.thiago.jogoDaVelha.service.GameService;
 public class VelhaController {
 
 	private Logger logger = LoggerFactory.getLogger(VelhaController.class);
-	
+
 	@Value("${message.game.draw}")
 	private String DRAW;
-	
+
 	@Autowired
 	private GameService gameService;
-	
+
 	@PostMapping("/jogovelha")
-	public ResponseEntity<String> verificaJogo(@RequestBody Game recivedGame){
+	public ResponseEntity<String> verificaJogo(@RequestBody Game recivedGame) {
 		try {
 			List<Integer> valuesInTheGame = gameService.transformJsonInGame(recivedGame);
 			String result = gameService.resolveGame(valuesInTheGame);
-			if(result.equalsIgnoreCase(DRAW)) {
+			if (result.equalsIgnoreCase(DRAW)) {
 				return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-			}else {
-				return ResponseEntity.ok("Temos um ganhador: " +result);
+			} else {
+				return ResponseEntity.ok("Temos um ganhador: " + result);
 			}
-			
-		} catch (Exception e) {
+
+		} catch (InvalidGameException e) {
 			logger.error(e.getMessage());
 			return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+		} catch (Exception e) {
+			logger.error(e.getMessage());
+			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
 		}
-	
+
 	}
 }
