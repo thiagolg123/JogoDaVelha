@@ -1,9 +1,9 @@
 # Jogo da Velha
 
 * Documentação da API + testes foram executados via postman:
-https://documenter.getpostman.com/view/3327369/Szt8eqGv
+https://documenter.getpostman.com/view/3327369/Szt8eqGv?version=latest
 
-* Endereço da API: http://ec2-18-220-188-233.us-east-2.compute.amazonaws.com/v1/jogovelha [POST]
+* Endereço da API: http://ec2-18-221-45-184.us-east-2.compute.amazonaws.com/v1/jogovelha [POST]
 
 
 # Descrição do problema proposto:
