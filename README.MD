@@ -1,4 +1,4 @@
-# Jogo da Velha
+# Jogo da Velha [![Build Status](https://travis-ci.com/thiagolg123/JogoDaVelha.svg?token=pDB6o6evi8FfW2qRZioz&branch=master)](https://travis-ci.com/thiagolg123/JogoDaVelha)
 
 * Documentação da API + testes foram executados via postman:
 https://documenter.getpostman.com/view/3327369/Szt8eqGv?version=latest
