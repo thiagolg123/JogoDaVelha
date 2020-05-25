@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-25T00:53:11.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="679kaPlVFUYtBtFF-xce" version="13.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-25T03:49:27.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="KG3tsrITjp7ci3KmpGe5" version="13.1.3" type="github">
   <diagram id="khcbJopSJ2TuTnvJd8K6" name="Explicando o projeto">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -180,16 +180,16 @@
         <mxCell id="voS8EZ6vIUPbUoV9z7Ga-28" value="Ubuntu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="-570" y="419.5" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="A24w_fFQ7bOaAUfPhMum-1" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Deixe os dois algoritmos que fiz no pacote: br.com.thiago.jogoDaVelha&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;TestAlgorithm1NotUsed: primeira algorítimo que usei.&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;TestAlgorithm2: Algoritmo com um pouco mais de performance, &lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;toda via com uma complexidade maior, optei por usar esse.&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="A24w_fFQ7bOaAUfPhMum-1" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Deixei os dois algoritmos que fiz no pacote: br.com.thiago.jogoDaVelha&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;TestAlgorithm1NotUsed: primeira algorítimo que usei.&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;TestAlgorithm2: Algoritmo com um pouco mais de performance, &lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;toda via com uma complexidade maior, optei por usar esse.&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="425.5" width="490" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="A24w_fFQ7bOaAUfPhMum-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Observações&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="A24w_fFQ7bOaAUfPhMum-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Observações&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="399.5" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="A24w_fFQ7bOaAUfPhMum-3" value="Para testes utilizei EclEmma covarege, Spring Tests, junit o projeto esta com 92% de cobertura.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="A24w_fFQ7bOaAUfPhMum-3" value="Para testes utilizei EclEmma covarege, Spring Tests, junit o projeto esta com 92% de cobertura.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="392.5" y="565" width="165" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="A24w_fFQ7bOaAUfPhMum-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Testes&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="A24w_fFQ7bOaAUfPhMum-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Testes&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="540" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
