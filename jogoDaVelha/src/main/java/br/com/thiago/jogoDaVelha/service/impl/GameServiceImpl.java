@@ -60,7 +60,7 @@ public class GameServiceImpl implements GameService {
 			return PLAYER_O;
 		}
 
-		return DRAW;
+		return this.DRAW;
 	}
 
 	@Override
