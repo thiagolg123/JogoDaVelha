@@ -1,3 +1,4 @@
+before_script: cd jogoDaVelha
 language: java
 sudo: false # faster builds
 
